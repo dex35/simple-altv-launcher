@@ -1,0 +1,39 @@
+body {
+  overflow: hidden;
+  user-select: none;
+  background: #3c3c3c;
+  color: #fff;
+  margin: 0;
+}
+
+.titlebar {
+  color: #fff;
+  height: 30px;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titlebar-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+
+.titlebar-button:hover {
+  background: #ffffff20;
+}
+
+.titlebar-button_close:hover {
+  background: #ff00008c;
+}
+
+.server-list {
+  height: calc(100vh - 30px);
+  overflow: auto;
+}
+
+.server {
+  padding: 5px;
+}
